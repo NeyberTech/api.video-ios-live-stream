@@ -1,10 +1,10 @@
 PODS:
-  - HaishinKit (1.2.1):
+  - HaishinKit (1.2.3):
     - Logboard (~> 2.2.2)
   - Logboard (2.2.2)
 
 DEPENDENCIES:
-  - HaishinKit (= 1.2.1)
+  - HaishinKit (= 1.2.3)
 
 SPEC REPOS:
   trunk:

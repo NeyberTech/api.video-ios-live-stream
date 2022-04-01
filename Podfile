@@ -6,7 +6,7 @@ target 'LiveStreamIos' do
   use_frameworks!
 
   # Pods for LiveStreamIos
-  pod 'HaishinKit', '1.2.1'
+  pod 'HaishinKit', '1.2.3'
 
   target 'LiveStreamIosTests' do
     # Pods for testing
