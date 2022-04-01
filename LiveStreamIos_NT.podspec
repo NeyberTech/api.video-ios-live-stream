@@ -3,8 +3,8 @@
 Pod::Spec.new do |spec|
 
 
-  spec.name         = "LiveStreamIos"
-  spec.version      = "0.0.4"
+  spec.name         = "LiveStreamIos_NT"
+  spec.version      = "0.0.5"
   spec.summary      = "a native iOS library from api.video"
 
   
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
     a native iOS library to stream on api.video, feel free to use it
                    DESC
 
-  spec.homepage     = "https://github.com/apivideo/LiveStreamIos"
+  spec.homepage     = "https://github.com/apivideo/api.video-ios-live-stream"
 
 
 
@@ -28,13 +28,13 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "9.0"
 
 
-  spec.source       = { :git => "https://github.com/apivideo/LiveStreamIos.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/NeyberTech/api.video-ios-live-stream.git", :tag => "0.0.4" }
 
 
 
   spec.source_files  = "LiveStreamIos/**/*.{h,m,swift}"
   spec.exclude_files = "LiveStreamIos/Exclude"
 
-  spec.dependency "HaishinKit", "1.2.1"
+  spec.dependency "HaishinKit", "1.2.3"
 
 end
