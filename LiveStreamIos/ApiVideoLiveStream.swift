@@ -211,10 +211,11 @@ public class ApiVideoLiveStream{
 
     private func setCaptureSettings(){
         rtmpStream.captureSettings = [
+            .sessionPreset: AVCaptureSession.Preset.high,
             .fps: videoFps,
             .continuousAutofocus: true,
             .continuousExposure: true,
-            .preferredVideoStabilizationMode: AVCaptureVideoStabilizationMode.auto
+            // .preferredVideoStabilizationMode: AVCaptureVideoStabilizationMode.auto
         ]
     }
 
