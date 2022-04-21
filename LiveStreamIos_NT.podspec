@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "LiveStreamIos_NT"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.7"
   spec.summary      = "a native iOS library from api.video"
 
   
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "9.0"
 
 
-  spec.source       = { :git => "https://github.com/NeyberTech/api.video-ios-live-stream.git", :tag => "0.0.4" }
+  spec.source       = { :git => "https://github.com/NeyberTech/api.video-ios-live-stream.git", :tag => "0.0.7" }
 
 
 
